@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="styles/restaurantstyles.css" rel="stylesheet" type="text/css" />
+        <script type="text/JavaScript" src="restaurant.js"></script>
+        <style>
+              body {
+                background-color: #868784;
+                color: #34113F;
+              }
+              nav {
+              border-top: thin #5b7d87 solid;
+              border-bottom: thin #5b7d87 solid;
+              padding-top: 12px;
+              padding-bottom: 12px;
+          }
+          nav .btn {
+              background-color: #34113F;
+              color: #F7F8F9;
+          }
+          nav .btn:hover {
+              font-weight: bold;
+          }
+
+          nav .btn:visited {
+              color: hotpink;
+          }
+</style>
+<noscript>
+        <div class="error message">
+            This site is best viewed in Javascript.
+        </div>    
+    </noscript>
+    </head>
+
+    <body>
+        <header><h1>Contact Us</h1></header>
+   
+   <nav>
+       <a class="btn badge-pill" href="restaurant home page.html">Home</a>
+       <a class="btn badge-pill" href="menu.html">Menu</a>
+       <a class="btn badge-pill" href="Contact.html">Contact Us</a>
+   </nav>
+   
+   <form action="contact.html" method="POST" name="contactus">
+      <p> Name: <input type="text" id="name" /></p>
+      <p> Email: <input type="text" id="EmailBold" /></p>
+      <p> Phone: <input type="text" id="phone"/></p>
+      <p> Reason for Inquiry<br />  <select name="Reason for Inquiry">
+         <p><option value="catering">Catering</option>
+          <option value="private party">Private Party</option>
+          <option value="facebook">Facebook</option>
+          <option value="other">Other</option></p>
+      </select></p>
+     <p>Additional Information<br />
+      <textarea name="Additional Information"></textarea>
+   </form></p>
+  <p> Have you been to the restaurant?<br />
+   <input type="radio" name="answer" value="yes" checked />Yes<br />
+   <input type="radio" name="answer" value="no" checked />No<br /></p>
+
+   <p id="bestdays">Best days to contact you: <input type="checkbox" name="myDays" value="M" checked/>M
+   <input type="checkbox" name="myDays" value="T" check/>T
+   <input type="checkbox" name="myDays" value="W" check/>W
+   <input type="checkbox" name="myDays" value="Th" check/>Th
+   <input type="checkbox" name="myDays" value="F" check/>F
+   </p>
+   <button type="submit" id="Submit" onclick="verify();" class="btn btn-default">Submit</button>
+   
+    </body>
+
+    <hr />
+    <footer>
+            180 W. 16th
+            Crestwood,KY 40056
+            502-555-6789
+    </footer>
+    <hr />
+</html>

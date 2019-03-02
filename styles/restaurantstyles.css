@@ -1,0 +1,39 @@
+header  {
+    background-color: #34113F;
+    color: #F7F8F9;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    font-size: 1.5em;
+    font-family: Verdana;
+}
+
+
+footer {
+    background-color: #93A8AC;
+    color: #34113F;
+    text-align: center;
+    font-family: Verdana;
+    padding: 10px 5px 10px 5px;
+}
+
+.carousel {
+    width: 70%;
+    margin:auto;
+    
+}
+
+.carouselImg {
+    width: auto;
+    height: 500px;
+    max-height: 500px;
+  }
+
+  h2 { text-align: center; }
+
+  p.description {
+      margin-left: auto;
+      margin-right: auto;
+      width: 40em;
+  }
+
+
